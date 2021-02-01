@@ -9,4 +9,9 @@ public class HomePageController {
     public String quickstart(){
         return "Hello";
     };
+
+    @GetMapping("/")
+    public String homePage(){
+        return "This is home page";
+    }
 }
